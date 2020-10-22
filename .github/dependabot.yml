@@ -8,11 +8,11 @@ updates:
       - "npm"
       - "dependencies"
     ignore:
-      - dependency_name: "express-jwt"
+      - dependency-name: "express-jwt"
         versions: ["0.1.3"]
-      - dependency_name: "sanitize-html"
+      - dependency-name: "sanitize-html"
         versions: ["1.4.2"]
-      - dependency_name: "unzipper"
+      - dependency-name: "unzipper"
         versions: ["0.9.15"]
-      - dependency_name: "jsonwebtoken"
+      - dependency-name: "jsonwebtoken"
         versions: ["0.4.0"]

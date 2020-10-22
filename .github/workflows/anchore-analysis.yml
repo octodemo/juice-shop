@@ -17,7 +17,7 @@ jobs:
     - name: Run the Anchore scan action itself with GitHub Advanced Security code scanning integration enabled
       uses: anchore/scan-action@v1
       with:
-        image: "localbuild/testimage:latest"
+        image-reference: "localbuild/testimage:latest"
         acs-report-enable: true
     - name: Upload Anchore Scan Report
       uses: github/codeql-action/upload-sarif@v1
